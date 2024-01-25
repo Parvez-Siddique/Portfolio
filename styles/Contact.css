@@ -1,0 +1,112 @@
+.contact-buttons{
+    display: flex;
+    position: relative;
+}
+
+.contact-button:hover 
+{
+    cursor: pointer;
+
+}
+.tooltips{
+    opacity: 0;;
+}
+.contact-buttons:hover div{
+    opacity: 1;
+}
+
+.tooltip-call{
+   position: absolute; 
+    align-items: center;
+    top : 60px;
+    right: 0px;
+    
+}
+.tooltip-mail{
+    width: 500px;
+    position: absolute; 
+    top : 90px;
+    right: -230px;
+
+}
+.tooltip-linkedin{
+    position: absolute; 
+    top : 130px;
+    right: 100px;
+
+}
+.call-image{
+       width: 15px;
+       padding-right: 17px;
+}
+.mail-image{
+    padding-top: 7px;
+    align-items: center;
+}
+.linkedin-image{
+    position: absolute; 
+    background-color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 3px;
+}
+
+.button-call{
+    display: flex;
+    color: rgb(20, 163, 252);
+    background-color: white;
+    font-weight : bold;
+    border: none;
+    border-radius: 14px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    width: 150px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.button-mail{
+    color: rgb(20, 163, 252);
+    background-color: white;
+    font-weight : bold;
+    border: none;
+    border-radius: 14px;
+    padding : 3px;
+    margin: 5px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    padding-top: -10px;
+    margin-left: 30px;
+}
+
+.button-linkedin{
+    margin-left: 150px;
+    height: 30px;
+    width: 58px;
+    color: rgb(20, 163, 252);
+    background-color: white;
+    font-weight : bold;
+    border: none;
+    border-radius: 14px;
+
+}
+
+ .button-mail:hover {
+    background-color: rgb(188, 0, 0);
+    color: black;
+    transition: 0.2s;
+}
+
+.button-call:hover{
+    background-color: rgb(4, 118, 4);
+    color: white;
+    transition: 0.2s;
+}
+
+.linkedin-image:hover{
+    background-color: rgb(0, 27, 56);
+    color: white;
+    transition: 0.2s;
+}

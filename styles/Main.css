@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    height:500px;
+}
+.first-div{
+    text-align: center;
+}
+
+.second-div{
+    border-radius: 30px;
+    background-color: white;
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: -20px;
+    
+}
+.profile-pic {
+    width : 130px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px black;
+}
+
+.text{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.text-2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -4px;
+}
+.text-3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button-div{  
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons, .contact-button{
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-weight : bold;
+    border: none;
+    border-radius: 6px;
+    padding : 10px;
+    margin: 20px;
+    
+}
+
+.buttons:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+}
+.contact-button:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+}
+
+
