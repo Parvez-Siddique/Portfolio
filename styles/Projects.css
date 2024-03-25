@@ -26,7 +26,7 @@ text-align: center;
     margin-top: 40px;
 }
 
-.youtube-button, .SPS-button, .TDL-button, .PHP-button{
+.youtube-button, .SPS-button, .TDL-button, .PHP-button, .python-button{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-left: 5px;
@@ -39,7 +39,7 @@ text-align: center;
     margin-bottom: 10px;
 }
 
-.youtube-button:hover, .SPS-button:hover, .TDL-button:hover, .PHP-button:hover 
+.youtube-button:hover, .SPS-button:hover, .TDL-button:hover, .PHP-button:hover, .python-button:hover
 {
     background-color: rgba(255, 123, 0, 0.918);
     color:black ;
