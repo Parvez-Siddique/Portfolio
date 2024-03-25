@@ -26,7 +26,7 @@ text-align: center;
     margin-top: 40px;
 }
 
-.youtube-button, .SPS-button, .TDL-button, .PHP-button, .python-button{
+.youtube-button, .SPS-button, .TDL-button, .PHP-button{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-left: 5px;
@@ -39,6 +39,20 @@ text-align: center;
     margin-bottom: 10px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.python-button{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 5px;
+  border: solid;
+  border-color: rgba(255, 123, 0, 0.918);
+  color: rgba(255, 123, 0, 0.918);
+  background-color: black;
+  border-width: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
 }
 
 .youtube-button:hover, .SPS-button:hover, .TDL-button:hover, .PHP-button:hover, .python-button:hover
