@@ -37,6 +37,8 @@ text-align: center;
     border-width: 3px;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .youtube-button:hover, .SPS-button:hover, .TDL-button:hover, .PHP-button:hover, .python-button:hover
@@ -70,6 +72,7 @@ text-align: center;
 }
 .framework{
     margin-left: 10px;
+    margin-bottom: 10px;
 }
  .backlanguages{
     margin-left: 10px;
