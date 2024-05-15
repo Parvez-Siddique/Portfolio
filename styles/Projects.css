@@ -26,7 +26,7 @@ text-align: center;
     margin-top: 40px;
 }
 
-.youtube-button, .SPS-button, .TDL-button, .PHP-button{
+.youtube-button, .SPS-button, .TDL-button, .python-button{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     border: solid;
@@ -40,21 +40,7 @@ text-align: center;
     margin-right: 5px;
 }
 
-.python-button{
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  border: solid;
-  border-color: rgba(255, 123, 0, 0.918);
-  color: rgba(255, 123, 0, 0.918);
-  background-color: black;
-  border-width: 3px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.youtube-button:hover, .SPS-button:hover, .TDL-button:hover, .PHP-button:hover, .python-button:hover
+.youtube-button:hover, .SPS-button:hover, .TDL-button:hover, .python-button:hover
 {
     background-color: rgba(255, 123, 0, 0.918);
     color:black ;
@@ -104,7 +90,7 @@ text-align: center;
   }
   @media (min-width :1000px) {
     .project-buttons{
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
     }
   }
 
@@ -115,6 +101,6 @@ text-align: center;
   }
   @media (min-width :1000px) {
     .skill-div{
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
     }
   }
